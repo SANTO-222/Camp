@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+
+    
+}
+.pps ul{
+    text-align: center;
+    font-size: 25px;
+margin-bottom: 40px;
+    list-style: none;
+}
+.bbt {
+    text-align: center;
+    margin-top: 30px;
+}
+.bbt button{
+    width: 15em;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+
+}
+.pps{
+    width: 600px;
+    border: 3px solid black;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding: 10px;
+    background-color: rgb(146, 221, 108);
+   border-radius: 5%;
+}
+
+.bbt .ch{
+    background-color: violet;
+}
+.bbt .ch:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+.pps input{
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.9);
+width: 300px;
+height: 35px;
+margin-top: 50px;
+margin-left: 20px;
+font-size: 19px;
+text-align: center;
+opacity:0.7;
+border-radius:20px ;
+color: black;
+}
+.prott{
+    margin-left: 90px;
+    font-size: 30px;
+    color: rgb(65, 8, 119);
+}

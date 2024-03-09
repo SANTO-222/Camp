@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.bg{
+    background-color: black;
+    color: #fff;
+}
+.bg h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font: bold;
+}
+.box{
+    width: 350px;
+    height: 150px;
+    background-color: gray;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.bg .boxes{
+    display: grid;
+    margin-top: 50px;
+    background-color:black;
+    gap: 55px;
+    text-align: center;
+    margin-left: 5%;
+    grid-template-columns: repeat(3, minmax(200px,1fr));
+}
+.bg .box:hover{
+    cursor: pointer;
+    background-color: rgb(235, 114, 15);
+}
+.boxes i{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.boxes h4:hover{
+    color: rgb(5, 61, 94);
+    cursor: pointer;
+}
+.boxes h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: orange;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content:flex-end;
+    margin-right: 90px;
+   
+
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+li{
+margin-left: 20px;
+margin-right: 10px;
+}
+ul h2{
+    position: absolute;
+    left: 10px;
+}
+nav{
+    height: 50px;
+    background-color: rgba(12, 11, 11, 0.808);
+    padding: 13px;
+    position: relative;
+    width: 100%;
+    top: -100px;
+    transition: all 1s ease ;
+}
+#check{
+    display: none;}
+    a:hover{
+        color: wheat;
+    }
+    label #btn{
+        color: #fff;
+        margin-left: 95%;
+        font-size: 30px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    }
+    label #cancel{
+        margin-left: 90%;
+        color: #fff;
+        font-size: 30px;
+        top: -85px;
+        transition: all 1.3s ease;
+        cursor: pointer;
+    }
+     label #cancel{
+        position: absolute;
+    }
+    
+    #check:checked ~ nav {
+    top: 1px;
+    }
+    #check:checked ~ label #btn{
+      right: -300px;
+        pointer-events: none;
+    
+    
+    }
+    #check:checked ~ label #cancel{
+            top: 5px;
+            left: 70px;
+            opacity: 1;
+            z-index: 111;
+        }
+    
+    
+    
+    
+    
